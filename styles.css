@@ -1,0 +1,38 @@
+#tabbedBrowsing{
+    box-sizing:border-box;
+    margin-right:4%;
+    float:center;
+    width:100%;
+    background-color: #85dcb8;
+    
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px #bdbdbd;
+    -webkit-box-shadow: 0 0 10px #bdbdbd;
+    box-shadow: 0 0 10px #bdbdbd;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.tabbedItem {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+#homeContainer{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#addressHoursContainer{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
