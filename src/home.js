@@ -1,4 +1,4 @@
-alert("Home");
+
 
 
 function updateWebpageHome (){
@@ -9,7 +9,7 @@ function updateWebpageHome (){
 <div id="homeContainer">
 <h1> Come on down to Chuck's chuck wagon!</h1>
 <p> affordable, local, and delicous!</p>
-<button>order now!</button>
+
 </div>
 
 

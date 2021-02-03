@@ -8,7 +8,7 @@ body{
     float:center;
     width:100%;
     height: 5%;
-    background-color: #85dcb8;
+    background-color: #EEE2DC;
     
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -18,11 +18,25 @@ body{
     overflow: hidden;
     white-space: nowrap;
 }
-
+#tabbedTitle{
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    padding-right: 23%;
+    font-size: xx-large;
+    padding-left: 2%;
+}
 .tabbedItem {
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
+    padding-right: 23%;
+    font-size: xx-large;
+    padding-left: 2%;
+}
+
+.tabbedItem:hover{
+    color: red;
 }
 
 #homeContainer{
@@ -129,3 +143,7 @@ background-color: #EEE2DC;
     width: 97%;
     /* The width is the width of the web page */
   }
+
+  iframe{
+      float: right;
+    padding-right: 5%;}
