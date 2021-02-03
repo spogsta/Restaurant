@@ -98,7 +98,7 @@ h3{
     color: #AC3B61;
     display:flex;
     overflow:hidden;
-    width: 55%;
+    width: 60%;
     float:right;
     text-align: right;
     
@@ -109,4 +109,23 @@ img{
     float:left;
 }
 
+#addressBox{
+position: absolute;
+width: 80%;
+left: 10%;
+top: 30%;
+padding-bottom: 3%;
+padding-left: 3%;
+padding-top: 3%;
+background-color: #EEE2DC;
 
+}
+
+#addressBoxContainer{}
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 97%;
+    /* The width is the width of the web page */
+  }
