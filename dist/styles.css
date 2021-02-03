@@ -15,8 +15,7 @@ body{
     -moz-box-shadow: 0 0 10px #bdbdbd;
     -webkit-box-shadow: 0 0 10px #bdbdbd;
     box-shadow: 0 0 10px #bdbdbd;
-    overflow: hidden;
-    white-space: nowrap;
+
 }
 #tabbedTitle{
     overflow: hidden;
@@ -30,7 +29,7 @@ body{
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
-    padding-right: 23%;
+    padding-right: 17%;
     font-size: xx-large;
     padding-left: 2%;
 }
